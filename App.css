@@ -1,0 +1,41 @@
+body{
+    
+    background: radial-gradient(ellipse at center, #ffc200 0%, #e0ad00 100%)
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.heading{
+    font-size: 72px;
+  background: -webkit-linear-gradient(#f38484, #281e1e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: Zoom-in 5s infinite;
+  position: relative;
+
+}
+@keyframes Zoom-in{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+.card{
+    background: linear-gradient(240deg, rgba(2,0,36,1) 0%, rgba(206,122,26,1) 76%, rgba(53,150,170,1) 100%);
+
+}
+input{
+    padding: 10px;
+    border: 4px solid red;
+}
+.playlist-heading{
+    color: rgb(253, 228, 6);
+    text-align: center;
+    margin-top: 4px;
+}
